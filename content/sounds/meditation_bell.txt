@@ -1,0 +1,4 @@
+{
+  "name": "meditation_bell",
+  "description": "\uba85\uc0c1 \uc885\uc18c\ub9ac"
+}

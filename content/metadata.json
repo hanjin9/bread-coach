@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-04-13T03:17:51.551896",
+  "breathing_patterns": [
+    "4-7-8",
+    "4-4-4-4",
+    "5-5-10",
+    "6-9-8-14"
+  ],
+  "backgrounds": [
+    "moonlight_night",
+    "flowing_water",
+    "dawn_fog",
+    "starry_sky",
+    "forest_peace"
+  ],
+  "sounds": [
+    "water_flow",
+    "bird_chirp",
+    "wind_breeze",
+    "meditation_bell"
+  ],
+  "total_content_items": 10
+}
