@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "Bread Coach",
+    "slug": "bread-coach",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f0f0f"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": false,
+      "bundleIdentifier": "com.breadcoach.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "호흡 자세 분석을 위해 카메라 접근이 필요합니다.",
+        "NSMicrophoneUsageDescription": "호흡 음성 분석을 위해 마이크 접근이 필요합니다.",
+        "NSPhotoLibraryUsageDescription": "프로필 사진 선택을 위해 사진 라이브러리 접근이 필요합니다."
+      },
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f0f0f"
+      },
+      "package": "com.breadcoach.app",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "POST_NOTIFICATIONS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#d4af37"
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "호흡 자세 분석을 위해 카메라 접근이 필요합니다."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "프로필 사진 선택을 위해 사진 라이브러리 접근이 필요합니다.",
+          "savePhotosPermission": "호흡 기록 저장을 위해 사진 라이브러리 접근이 필요합니다."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "bread-coach-project-id"
+      }
+    },
+    "scheme": "breadcoach"
+  }
+}
