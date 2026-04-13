@@ -31,6 +31,7 @@ export interface BreathingTemplate {
     url: string | null;
     volume: number;
   };
+  style?: 'standard' | 'penetration';
 }
 
 const defaultTemplate: BreathingTemplate = {
@@ -64,6 +65,7 @@ const defaultTemplate: BreathingTemplate = {
     url: null,
     volume: 0.5,
   },
+  style: 'standard',
 };
 
 interface TemplateStore {
